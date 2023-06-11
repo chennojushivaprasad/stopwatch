@@ -1,0 +1,101 @@
+/* Write CSS here */
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 1rem;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    background-position: bottom right;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .heading {
+    font-size: 4.2rem;
+  }
+  
+  .stopwatchimg {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .timer-heading {
+    font-size: 2.6rem;
+  }
+  
+  .display-time {
+    font-size: 4rem;
+  }
+  
+  .stop-watch-container {
+    width: 90%;
+    max-width: 35rem;
+    height: 40rem;
+    /* padding: 5rem; */
+    margin: 10%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .timer-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  
+  .timer-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 2.6rem;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .btn {
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  
+  .btn:nth-child(1) {
+    background-color: #1db05f;
+  }
+  
+  .btn:nth-child(2) {
+    background-color: #ef0d36;
+  }
+  .btn:nth-child(3) {
+    background-color: #eaa800;
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      height: 100vh;
+      background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    }
+  
+    .stop-watch-container {
+      margin: 1rem auto;
+      max-width: none;
+    }
+  }
+  
